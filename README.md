@@ -13,7 +13,7 @@ Replaces each occurrences of regular expressions *pattern* by *replace* in *path
 
 ###Options
 -p, --python  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before *replace* or *pathname*, the expression argument is parsed and evaluated as a Python expression
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Before *pattern* or *replace*, the expression argument is parsed and evaluated as a Python expression
 
 
 ###Examples
