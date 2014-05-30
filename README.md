@@ -18,7 +18,12 @@ Replaces each occurrences of regular expressions *pattern* by *replace* in *path
 
 ###Examples
 ```bash
-refactor aaa bbb *.cpp Makefile
+# replaces all occurrences of aaa by bbb
+refactor aaa bbb *.h *.cpp Makefile
+
+# refactors using a new convention
 refactor aaa_([a-z]+) \1_bbb *.cpp Makefile
+
+# camelCase-ify using a python function
 refactor '([a-z]+)_([a-z]+)' -p 'lambda m: m.group(1).lower() + m.group(2).capitalize(),' *.h
 ```
