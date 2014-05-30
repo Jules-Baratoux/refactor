@@ -18,10 +18,10 @@ Replaces each occurrences of regular expressions *pattern* by *replace* in *path
 
 ###Examples
 ```bash
-# replaces all occurrences of aaa by bbb
+# replace all occurrences of aaa by bbb
 refactor aaa bbb *.h *.cpp Makefile
 
-# refactors using a new convention
+# refactor using a new convention
 refactor aaa_([a-z]+) \1_bbb *.cpp Makefile
 
 # camelCase-ify using a python function
