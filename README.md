@@ -1,7 +1,7 @@
 Refactor
 ========
 
-Renames file, folders and contents based on reguler expretions
+Renames file, folders and contents based on regular expression
 
 ###Synopsys
   refactor *pattern* *replace* *pathname* [*pathnames* ...]
